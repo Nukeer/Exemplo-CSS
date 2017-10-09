@@ -1,0 +1,25 @@
+body{
+	background-color: orange;
+}
+h1{
+	text-align: right;
+	color: white;
+	text-decoration-style: solid;
+}
+
+#ola-mundo, #meu-h1, #meu-h1-com-outro-texto{
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+.texto-verde{
+	color: green;
+}
+
+.fonte-maior{
+	font-size: 40px;
+}
+.fonte-diferente{
+	font-family: 'Passion One'
+}
