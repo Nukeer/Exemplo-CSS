@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(255, 178, 0);
+}
+
+#lista-div:hover{
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.titulo{
+	font-size: 28px;
+	text-align: center;
+	color: darkviolet !important;
+}
+
+.esquerda{
+	background-color: #dd520d;
+}
+.direita{
+	background-color: #e20d8d;
+}
+
+.titulo-2{
+	color: blue;
+}

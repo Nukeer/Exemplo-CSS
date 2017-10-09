@@ -1,5 +1,6 @@
 body{
 	background-color: orange;
+	margin: 0px;
 }
 h1{
 	text-align: right;
@@ -13,8 +14,8 @@ h1{
 	font-style: italic;
 }
 
-.texto-verde{
-	color: green;
+.texto-verde:hover{
+	color: orange;
 }
 
 .fonte-maior{
@@ -22,4 +23,23 @@ h1{
 }
 .fonte-diferente{
 	font-family: 'Passion One'
+}
+
+.menu{
+	width: 200px;
+	height: 40px;
+	display: block;
+	background-color: orange;
+	color: #9800ff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 30px;
+}
+
+.menu:hover{
+	background-color: #80ff56;
+	color: #021c84;
+	cursor: progress;
 }
