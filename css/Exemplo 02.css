@@ -19,10 +19,47 @@ body{
 .esquerda{
 	background-color: #dd520d;
 }
+
 .direita{
 	background-color: #e20d8d;
 }
 
+.classe-meio{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+
 .titulo-2{
 	color: blue;
 }
+
+.rodape{
+	background-color: #949494;
+	height: 40px;
+}
+
+.div-pai-esquerda-direita{
+	height: 600px;
+}
+
+.rodape-imagem{
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 6px;
+
+	/* top, right, left, bottom */
+	margin: 5px 14px 6px 10px; 
+	/* top = bottom, right = left*/
+	margin: 5px 10px;
+	/* top = bottom = right = left*/
+	margin: 5px;
+
+	max-height: 30px;
+	max-width: 200px;
+}
+
+/* display: none - Desabilita o campo */
+/* display: block - Habilita o campo */

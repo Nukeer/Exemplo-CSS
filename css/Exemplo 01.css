@@ -29,17 +29,28 @@ h1{
 	width: 200px;
 	height: 40px;
 	display: block;
-	background-color: orange;
+	background-color: green;
 	color: #9800ff;
 	font-weight: bold;
 	font-size: 20px;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	padding-top: 30px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	text-transform:uppercase; 
+	border-radius: 10px;
+	border: 5px dotted #ff1000;
+	border-right: 10px dashed #fffaf9;
 }
 
 .menu:hover{
 	background-color: #80ff56;
 	color: #021c84;
 	cursor: progress;
+}
+
+.verde{
+	color: green;
 }
